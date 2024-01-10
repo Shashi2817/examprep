@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f2f5f8, #e6e9ec);
+    /* Subtle gradient */
+    display: flex;
+
+
+    flex-direction: column;
+    justify-content: center;
+    /* Center contents vertically */
+    align-items: center;
+    /* Center contents horizontally */
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    /* font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px; */
+    font-family: 'san-serif', serif;
+    /* Example font */
+    font-size: 48px;
+    color: #f05429;
+   
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+    margin: 10px 0;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 5px;
+    margin: auto;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+select:hover {
+    border-color: #4CAF50;
+    /* Green */
+}
+
+
+
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    color: #fff;
+    padding: 15px 30px;
+    display: block;
+    margin: 15px auto;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    /* Darker green */
+}
+
+#download-link a {
+    color: #4CAF50;
+    /* Green */
+    text-decoration: none;
+}
+
